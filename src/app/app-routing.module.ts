@@ -16,7 +16,12 @@ const routes: Routes = [
         .then(m => m.countryRoutes)
   },
   */
-  { path: 'country', component: ByCapitalPage },
+ {path:'countrySA', 
+ loadChildren: () =>
+    import('./country/country.routes')
+      .then(m => m.countryRoutes)
+},
+  //{ path: 'country', component: ByCapitalPage },
   { path: '**', redirectTo: '' }
 ];
 

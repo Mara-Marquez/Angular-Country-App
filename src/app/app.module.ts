@@ -9,7 +9,7 @@ import { ByCapitalPage } from './country/pages/by-capital-page/by-capital-page';
 @NgModule({
   declarations: [
     AppComponent,
-    ByCapitalPage,
+   // ByCapitalPage,
   ],
   imports: [
     BrowserModule,
