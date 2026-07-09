@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { ByCapitalPage } from './country/pages/by-capital-page/by-capital-page';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ByCapitalPage,
   ],
   imports: [
     BrowserModule,
