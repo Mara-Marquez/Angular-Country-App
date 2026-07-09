@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
  
 
 })
-export class ByCapitalPage {}
+export class ByCapitalPage {
+
+ constructor() {
+    console.log('ByCapitalPage cargado');
+  }
+
+
+
+}
