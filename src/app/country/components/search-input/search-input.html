@@ -1,0 +1,12 @@
+<div class="flex flex-row gap-2 mt-2">
+<input type="text"
+  class="input input-bordered border-2 border-gray w-56" 
+  placeholder={{placeholder}}
+  autofocus
+  #txtSearch
+  (keyup.enter)="onChange(txtSearch.value)"/>
+  <button class="  btn btn-primary px-2  bg-orange-400" (click)="onChange(txtSearch.value)">
+    Buscar
+  </button>
+</div>
+
